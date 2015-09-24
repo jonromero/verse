@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  background-color: #334;
+}
+
+article {
+  background: white;
+  height: 100%;
+  margin-left: 60px;
+  padding: 1.5em;
+}
+
+#header {
+  background-color: white;
+  padding: 20px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  padding: 20px;
+}
+
+#faq {
+  float: right;
+}
+
+#you-are-here {
+  margin-right: 1em
+}
+
+h1 {
+  font-size: 1.2em;
+  display: inline;
+}
+
+a {
+  text-decoration: none
+}
+
+.popup {
+  background: black;
+  color: #ddd;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Monaco, monospace;
+  box-sizing: border-box;
+  padding: 15px;
+}
